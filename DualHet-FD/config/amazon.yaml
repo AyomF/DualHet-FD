@@ -1,0 +1,28 @@
+# train parameters
+dataset: 'amazon'
+seed: 20
+epoch: 100
+early_stop: 200
+lr: 0.1
+weight_decay: 0.00005
+cuda: 0
+log: True
+data_path: '../data/'
+result_path: '../result/'
+
+
+
+# model parameters
+alpha: 0.6
+beta: 0.4
+gamma1: 0.4
+gamma2: 1.4
+gamma3: 1.2
+intra_dim: 8
+n_class: 2
+head: 4
+n_layer: 2
+dropout: 0.1
+
+
+
